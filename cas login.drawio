@@ -1,1 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2020-11-05T02:47:42.368Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" version="13.8.9-1" etag="HLWzCG1oTcBHDjMB94I-" type="github"><diagram id="rD9GtttVH1yvxe2XEJpl">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-13T09:50:54.130Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="s9POrmvHUPDLPZcWBdh5" version="13.9.1" type="github">
+  <diagram id="rD9GtttVH1yvxe2XEJpl" name="Page-1">
+    <mxGraphModel dx="2087" dy="1207" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="3000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0LO9r10XvpWiEU8YtFpy-4" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0LO9r10XvpWiEU8YtFpy-5" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="300" as="sourcePoint" />
+            <mxPoint x="1200" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0LO9r10XvpWiEU8YtFpy-6" value="http://172.25.21.205:30010/sysmanager/api/sysUser/getUserInfo" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="360" y="260" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0LO9r10XvpWiEU8YtFpy-7" value="" style="endArrow=classic;html=1;fontSize=20;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1200" y="480" as="sourcePoint" />
+            <mxPoint x="280" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0LO9r10XvpWiEU8YtFpy-8" value="redirectURL=http://172.25.21.205:30010/cas/login?service=http%3A%2F%2F172.25.21.205%3A30010%2Fsysmanager%2Flogin%2Fcas&lt;br&gt;status=403" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="350" y="425" width="1230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0LO9r10XvpWiEU8YtFpy-9" value="" style="endArrow=classic;html=1;fontSize=20;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="680" as="sourcePoint" />
+            <mxPoint x="1210" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0LO9r10XvpWiEU8YtFpy-10" value="http://172.25.21.205:30010/cas/login?service=http://172.25.21.205:30010/sysmanager/login/cas&amp;amp;loginUrl=http://172.25.21.205:30010/login" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="350" y="630" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0LO9r10XvpWiEU8YtFpy-11" value="" style="endArrow=classic;html=1;fontSize=20;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1210" y="840" as="sourcePoint" />
+            <mxPoint x="270" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0LO9r10XvpWiEU8YtFpy-12" value="location: http://172.25.21.205:30010/login" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="350" y="805" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0LO9r10XvpWiEU8YtFpy-13" value="" style="endArrow=classic;html=1;fontSize=20;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="1030" as="sourcePoint" />
+            <mxPoint x="1210" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0LO9r10XvpWiEU8YtFpy-14" value="http://172.25.21.205:30010/sysmanager/security_check" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="350" y="990" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0LO9r10XvpWiEU8YtFpy-15" value="" style="endArrow=classic;html=1;fontSize=20;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1210" y="1200" as="sourcePoint" />
+            <mxPoint x="270" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0LO9r10XvpWiEU8YtFpy-16" value="TgtUrl=http://172.25.21.205:30010/cas/v1/tickets/TGT-369-nzXnf0SEZz4DLe7BNhv2KQkOhZqLwH72N6mkRd5aeO6FiG6zz4-cas01.example.org" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1160" width="1310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0LO9r10XvpWiEU8YtFpy-17" value="location: http://172.25.21.205:30010?ticket=ST-810-pfpLvYS5jnPF1zx5VoGB-cas01.example.org" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1220" width="870" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0LO9r10XvpWiEU8YtFpy-18" value="" style="endArrow=classic;html=1;fontSize=20;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="1450" as="sourcePoint" />
+            <mxPoint x="1210" y="1450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0LO9r10XvpWiEU8YtFpy-19" value="&lt;span&gt;http://172.25.21.205:30010&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1410" width="250" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
